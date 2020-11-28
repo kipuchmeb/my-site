@@ -187,3 +187,43 @@ body {
   padding-left: 25px;
   background-image: url("img/icon-phone.svg");
 }
+
+/* Меню */
+
+.main-menu {
+   display: flex;
+   justify-content: left;
+   align-items: left;
+}
+
+.main-menu li {
+   display: block;
+   padding: 0 10px;
+   letter-spacing: 1px;
+   color: #fff;
+   font-size: 15px;
+   font-family: sans-serif;
+   text-transform: uppercase;
+   transition: .5s;
+}
+
+.main-menu li a {
+   list-style: none;
+   text-decoration: none;
+   color: #fff;
+   transition: .5s;
+   padding: 10px;
+}
+
+.main-menu:hover li a{
+   filter: blur(5px);
+}
+
+.main-menu:hover li a:hover {
+   letter-spacing: 3px;
+   filter: blur(0px);
+   color: white;
+   font-weight: 600;
+   background-color: #712073;
+}
+
